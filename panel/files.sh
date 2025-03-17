@@ -2,6 +2,7 @@
 
 mkdir -p /var/www/pterodactyl
 pwd=$(PWD)
+mkdir -p /var/www/pterodactyl
 cd /var/www/pterodactyl
 
 curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz
